@@ -1,1 +1,1 @@
-// code solution here
+var input = process.argv
