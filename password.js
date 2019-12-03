@@ -8,6 +8,6 @@ charset = charset || 'abcdefghijklnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456
 for (let i = number, i>0, i--){
   for(let j = length, j>0, j--){
     var password = ""
-    password += 
+    password += charset.charAt(Math.floor(Math.random() * n))
   }
 }
