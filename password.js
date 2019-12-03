@@ -11,4 +11,6 @@ for (let i = number, i>0, i--){
     var password = ""
     password += charset.charAt(Math.floor(Math.random() * n))
   }
+  output.push(password)
 }
+
