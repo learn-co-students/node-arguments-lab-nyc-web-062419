@@ -1,9 +1,7 @@
-process.argv.shift()
-process.argv.shift()
 var input = process.argv
 var output = []
-var passLength = parseInt(input[0], 10) 
-var number = parseInt(input[1], 10)
+var passLength = parseInt(input[2], 10) 
+var number = parseInt(input[3], 10)
 charset = charset || 'abcdefghijklnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789'
 
 for (var i = number; i>0; i--){
