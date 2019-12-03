@@ -13,4 +13,5 @@ for (let i = number, i>0, i--){
   }
   output.push(password)
 }
-
+process.stdout.write(output)
+process.exit(0)
