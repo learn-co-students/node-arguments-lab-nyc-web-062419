@@ -11,7 +11,7 @@ for (var i = number; i>0; i--){
     var password = ""
     password += charset.charAt(Math.floor(Math.random() * n))
   }
-  output.push(password)
+  console.log(password)
 }
 process.stdout.write(output)
 process.exit(0)
