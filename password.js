@@ -5,4 +5,9 @@ var length = input[0]
 var number = input[1]
 charset = charset || 'abcdefghijklnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789'
 
-for (let i = number, )
+for (let i = number, i>0, i--){
+  for(let j = length, j>0, j--){
+    var password = ""
+    password += 
+  }
+}
